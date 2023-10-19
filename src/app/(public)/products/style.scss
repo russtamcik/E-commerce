@@ -1,0 +1,32 @@
+.btn {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  button:nth-child(1) {
+    background-color: #0a1345;
+    color: white;
+    transition: all 0.4s linear;
+  }
+
+  button:nth-child(1):hover {
+    background-color: #1e32a3;
+  }
+
+  button:nth-child(2) {
+    background-color: #0a1345;
+    color: white;
+    transition: all 0.4s linear;
+  }
+
+  button:nth-child(2):hover {
+    background-color: #7d84ab;
+  }
+}
